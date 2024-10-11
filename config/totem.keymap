@@ -221,5 +221,14 @@
                                    &trans        &kp LC(F12)    &kp LC(F11)    &trans  &trans  &trans
             >;
         };
+
+        neo3 {
+            bindings = <
+       &none          &kp UNDERSCORE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp CARET       &kp EXCLAMATION  &kp LESS_THAN         &kp GREATER_THAN       &kp EQUAL  &kp AMPERSAND
+       &kp BACKSLASH  &kp SLASH       &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp ASTERISK    &kp QUESTION     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS  &kp COLON
+&none  &kp HASH       &kp DOLLAR      &kp PIPE          &kp TILDE          &kp GRAVE       &kp PLUS         &kp PERCENT           &kp DOUBLE_QUOTES      &kp SQT    &kp SEMICOLON  &kp AT_SIGN
+                                      &trans            &trans             &trans          &trans           &trans                &trans
+            >;
+        };
     };
 };
