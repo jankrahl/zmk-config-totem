@@ -85,10 +85,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-       &kp J       &kp L       &kp U        &kp A        &kp Q        &kp W    &kp B        &kp D        &kp G    &kp Y
-       &mt LGUI C  &mt LALT R  &mt LCTRL I  &mt LSHFT E  &kp O        &kp M    &mt RSHFT N  &mt RCTRL T  &mt S I  &mt RGUI H
-&none  &kp V       &kp X       &kp RA(Y)    &kp RA(Q)    &kp RA(P)    &kp P    &kp F        &kp COMMA    &kp DOT  &kp K       &kp Z
-                               &kp DEL      &lt NAV TAB  &kp SPACE    &kp RET  &lt SYM ESC  &kp BSPC
+       &kp Z       &kp L       &kp U         &kp A          &kp Q    &kp W  &kp B          &kp D         &kp G    &kp Y
+       &mt LGUI C  &mt LALT R  &mt LSHIFT I  &mt LCTRL E    &kp O    &kp M  &mt LCTRL N    &mt LSHIFT T  &mt S I  &mt RGUI H
+&none  &kp V       &kp X       &kp J         &kp SQT        &none    &kp P  &kp F          &kp COMMA     &kp DOT  &kp K       &none
+                               &none         &lt NAV SPACE  &none    &none  &lt SYM SPACE  &none
             >;
         };
 
@@ -111,10 +111,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp ESC    &bt BT_CLR  &kp UP    &kp EQUAL  &kp LBRC    &kp RBRC  &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_PLUS
-        &kp LSHFT  &kp LEFT    &kp DOWN  &kp RIGHT  &kp LBKT    &kp RBKT  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_MINUS
-&trans  &kp DEL    &kp PG_UP   &kp CAPS  &kp PG_DN  &kp LPAR    &kp RPAR  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_MULTIPLY  &trans
-                               &trans    &trans     &trans      &mo ADJ   &kp KP_N0  &trans
+        &kp UNDER         &kp HOME           &kp UP           &kp END          &kp CARET    &trans  &trans  &trans  &trans  &trans
+        &mt LGUI PAGE_UP  &mt LEFT_ALT LEFT  &mt LSHIFT DOWN  &mt LCTRL RIGHT  &kp PG_DN    &trans  &trans  &trans  &trans  &trans
+&trans  &kp HASH          &kp DOLLAR         &kp PIPE         &kp TILDE        &kp GRAVE    &trans  &trans  &trans  &trans  &trans  &trans
+                                             &trans           &trans           &trans       &trans  &trans  &trans
             >;
         };
 
