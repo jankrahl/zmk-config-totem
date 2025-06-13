@@ -170,6 +170,16 @@
             bindings = <&kp EXCL>;
             key-positions = <6 5>;
         };
+
+        space_l {
+            bindings = <&kp SPACE>;
+            key-positions = <13 12 11>;
+        };
+
+        space_r {
+            bindings = <&kp SPACE>;
+            key-positions = <16 17 18>;
+        };
     };
 
     macros {
