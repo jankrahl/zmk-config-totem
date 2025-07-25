@@ -11,6 +11,7 @@
 // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 
 #include <behaviors.dtsi>
+#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
 #define BASE 0
@@ -311,7 +312,7 @@
             bindings = <
         &kp LS(LC(T))  &kp LC(W)  &kp LS(LC(TAB))  &kp LC(TAB)    &kp LC(T)    &trans  &trans  &trans  &trans  &trans
         &trans         &kp LC(R)  &up12            &down12        &trans       &trans  &trans  &trans  &trans  &trans
-&trans  &trans         &trans     &kp LA(LEFT)     &kp LA(RIGHT)  &trans       &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans         &trans     &kp LA(LEFT)     &kp LA(RIGHT)  &trans       &trans  &trans  &trans  &trans  &trans  &bt BT_CLR_ALL
                                   &trans           &trans         &trans       &trans  &trans  &trans
             >;
         };
