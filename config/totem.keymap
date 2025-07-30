@@ -243,7 +243,7 @@
        &kp Z       &kp L       &kp U         &kp A        &kp Q        &kp W      &kp B        &kp D         &kp G           &kp Y
        &mt LGUI C  &mt LALT R  &mt LSHIFT I  &mt LCTRL E  &kp O        &kp M      &mt LCTRL N  &mt LSHIFT T  &mt LEFT_ALT S  &mt LEFT_GUI H
 &none  &kp V       &kp X       &kp J         &kp SQT      &none        &kp P      &kp F        &kp COMMA     &kp DOT         &kp K           &none
-                               &none         &lt 1 SPACE  &lt 4 TAB    &lt 3 TAB  &lt 2 SPACE  &none
+                               &none         &lt 1 SPACE  &lt 4 TAB    &lt 3 TAB  &lt 2 SPACE  &kp LSHIFT
             >;
         };
 
@@ -314,10 +314,10 @@
 
         browser {
             bindings = <
-        &kp LS(LC(T))  &kp LC(W)  &kp LS(LC(TAB))  &kp LC(TAB)    &kp LC(T)    &trans  &trans  &trans  &trans  &trans
-        &trans         &kp LC(R)  &up12            &down12        &trans       &trans  &trans  &trans  &trans  &trans
-&trans  &trans         &trans     &kp LA(LEFT)     &kp LA(RIGHT)  &trans       &trans  &trans  &trans  &trans  &trans  &bt BT_CLR_ALL
-                                  &trans           &trans         &trans       &trans  &trans  &trans
+        &kp LS(LC(T))    &kp LC(W)  &kp LS(LC(TAB))  &kp LC(TAB)    &kp LC(T)     &trans  &trans  &trans  &trans  &trans
+        &kp C_VOLUME_UP  &kp LC(R)  &up12            &down12        &kp C_MUTE    &trans  &trans  &trans  &trans  &trans
+&trans  &kp C_VOL_DN     &trans     &kp LA(LEFT)     &kp LA(RIGHT)  &kp F20       &trans  &trans  &trans  &trans  &trans  &bt BT_CLR_ALL
+                                    &trans           &trans         &trans        &trans  &trans  &trans
             >;
         };
     };
