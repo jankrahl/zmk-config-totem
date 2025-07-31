@@ -248,7 +248,7 @@
        &kp Z       &kp L       &kp U         &kp A        &kp Q        &kp W      &kp B        &kp D         &kp G           &kp Y
        &mt LGUI C  &mt LALT R  &mt LSHIFT I  &mt LCTRL E  &kp O        &kp M      &mt LCTRL N  &mt LSHIFT T  &mt LEFT_ALT S  &mt LEFT_GUI H
 &none  &kp V       &kp X       &kp J         &kp SQT      &kp GRAVE    &kp P      &kp F        &kp COMMA     &lt 5 DOT       &kp K           &none
-                               &none         &lt 1 SPACE  &lt 4 TAB    &lt 3 TAB  &lt 2 SPACE  &kp LSHIFT
+                               &none         &lt 1 SPACE  &lt 4 TAB    &lt 3 TAB  &lt 2 SPACE  &kp F24
             >;
         };
 
@@ -310,10 +310,10 @@
 
         fkeys {
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &trans   &kp F7  &kp F8  &kp F9  &kp F8
-        &trans  &trans  &trans  &trans  &trans    &kp F12  &kp F1  &kp F2  &kp F3  &kp F10
-&trans  &trans  &trans  &trans  &trans  &trans    &kp F11  &kp F4  &kp F5  &kp F6  &kp F10  &trans
-                        &trans  &trans  &trans    &trans   &trans  &trans
+        &trans   &kp F19  &kp F18  &kp F17  &trans    &trans  &kp F7  &kp F8  &kp F9  &trans
+        &kp F20  &kp F13  &kp F12  &kp F11  &trans    &trans  &kp F1  &kp F2  &kp F3  &kp F10
+&trans  &trans   &kp F16  &kp F15  &kp F14  &trans    &trans  &kp F4  &kp F5  &kp F6  &trans   &trans
+                          &trans   &trans   &trans    &trans  &trans  &trans
             >;
         };
 
