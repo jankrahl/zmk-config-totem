@@ -271,10 +271,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &trans     &kp HOME    &kp UP    &kp END    &kp CARET    &trans  &trans  &trans  &trans  &trans
-        &kp PG_UP  &kp LEFT    &kp DOWN  &kp RIGHT  &kp PG_DN    &trans  &trans  &trans  &trans  &trans
-&trans  &kp HASH   &kp DOLLAR  &kp PIPE  &kp TILDE  &kp GRAVE    &trans  &trans  &trans  &trans  &trans  &trans
-                               &trans    &trans     &trans       &trans  &trans  &trans
+        &trans    &kp PG_UP   &kp UP    &kp PAGE_DOWN  &kp CARET    &trans  &trans  &trans  &trans  &trans
+        &kp HOME  &kp LEFT    &kp DOWN  &kp RIGHT      &kp END      &trans  &trans  &trans  &trans  &trans
+&trans  &kp HASH  &kp DOLLAR  &kp PIPE  &kp TILDE      &kp GRAVE    &trans  &trans  &trans  &trans  &trans  &trans
+                              &trans    &trans         &trans       &trans  &trans  &trans
             >;
         };
 
